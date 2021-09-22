@@ -153,6 +153,7 @@ function App() {
           ) : (
             <Container style={{ padding: 30 }}>
               <TodoForm
+                
                 addSingleTodo={(todoText) => {
                   const trimmedText = todoText.name.trim();
 

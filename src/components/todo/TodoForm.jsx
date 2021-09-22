@@ -8,6 +8,7 @@ const TodoForm = ({ addSingleTodo }) => {
   return (
     <form
       onSubmit={(event) => {
+        //recomendacion de js: que no haya retroceso
         event.preventDefault();
         addSingleTodo({ name: value });
         reset();
